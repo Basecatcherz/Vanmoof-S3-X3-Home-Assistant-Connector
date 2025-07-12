@@ -22,6 +22,7 @@ The script also publishes auto discovery messages to make sure the bike will sho
 2. Install dependencies
 	- [Pymoof](https://github.com/quantsini/pymoof/)
  	- [paho-mqtt](https://pypi.org/project/paho-mqtt/)
+  	- [bleak](https://pypi.org/project/bleak/)
 3. Edit script
    - MQTT Server
    - Bike's MAC address
