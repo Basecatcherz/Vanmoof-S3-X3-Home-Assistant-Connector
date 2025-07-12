@@ -10,6 +10,8 @@ This Python script will connect to a Vanmoof S3 or X3 and send the following dat
 - Distance driven
 - Lock state
 
+The script also publishes auto discovery messages to make sure the bike will show up in Home Assistant automatically.
+
 ## Requirements
 - Bluetooth LE enabled device to run the script on (tested on Raspberry Pi 3)
 - Home Assistant
