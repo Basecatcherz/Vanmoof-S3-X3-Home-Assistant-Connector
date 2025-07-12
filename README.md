@@ -20,7 +20,7 @@ The script also publishes auto discovery messages to make sure the bike will sho
 ## Installation
 1. Create a new Python venv
 2. Install dependencies
-	- [Pymoof](https://github.com/quantsini/pymoof/)
+	- [pymoof](https://github.com/quantsini/pymoof/)
  	- [paho-mqtt](https://pypi.org/project/paho-mqtt/)
   	- [bleak](https://pypi.org/project/bleak/)
 3. Edit script
