@@ -1,6 +1,7 @@
 
+
 # Vanmoof S3 / X3 Home Assistant Connector
-A Python script that connects a Vanmoof S3 or X3 to Home Assistant using Pymoof and MQTT.
+A Python script that connects a Vanmoof S3 or X3 to Home Assistant using [Pymoof](https://github.com/quantsini/pymoof/) and MQTT.
 
 ## What does this do?
 This Python script will connect to a Vanmoof S3 or X3 and send the following data to a MQTT broker:
@@ -17,8 +18,9 @@ This Python script will connect to a Vanmoof S3 or X3 and send the following dat
 ## Installation
 1. Create a new Python venv
 2. Install dependencies
+	- [Pymoof](https://github.com/quantsini/pymoof/)
 3. Edit script
    - MQTT Server
    - Bike's MAC address
    - Credentials
-5. Run the script periodically (e.g. via cron)
+4. Run the script periodically (e.g. via cron)
