@@ -1,9 +1,7 @@
-
-
 # Vanmoof S3 / X3 Home Assistant Connector
 A Python script that connects a Vanmoof S3 or X3 to Home Assistant using [Pymoof](https://github.com/quantsini/pymoof/) and MQTT.
 
-## What does this do?
+## What does it do?
 This Python script will connect to a Vanmoof S3 or X3 and send the following data to a MQTT broker:
 - Availability
 - Battery level
